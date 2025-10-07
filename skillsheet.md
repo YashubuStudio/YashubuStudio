@@ -1,129 +1,120 @@
-# スキルシート
+# 🧠 技術スキルシート - YashubuStudio
 
-## 基本情報
-- 肩書：フルスタックエンジニア／自律型システム開発者
-- 経験年数：4年
-- 勤務形態：完全リモート（成果物納品・非同期進行）
-- 開発環境：Windowsメイン（Linux移行中）／Mac非対応
-- GitHub：[@YashubuStudio](https://github.com/YashubuStudio)
-- 配信中プロジェクト：[MultiIndex (Booth)](https://hisuiyk.booth.pm/items/7214613)
+## 👤 プロフィール
+**氏名（ハンドル）**：Yashubu  
+**職種**：独立系エンジニア／技術研究者  
+**活動歴**：4年（個人開発・技術研究）  
+**稼働形態**：フルリモート専業（委託・共同研究対応可）  
 
 ---
 
-## サマリ
-独立系エンジニアとして、目的に応じて最適な技術を選び、  
-必要なものをその場で設計・構築・実装してきました。  
-特定の分野に限定せず、**「必要なものを正しく動かす」ことを最優先**に、  
-軽量で維持コストの低いシステムを数多く構築。  
-Go・PHP・React・Pythonなど複数言語を横断し、  
-Webサイトからローカルアプリ、検索・分類などのバックエンドまで、  
-すべてを一貫して扱うことができます。  
-クラウドとローカルの特性を理解し、**環境や目的に応じた最小構成設計**を得意としています。
+## 🧩 サマリ
+独立系エンジニアとして、AIを含む多分野技術の**研究・基礎設計・実装**を行っています。  
+目的に応じて必要な技術をその場で習得し、**軽量・高効率・低コスト**なシステムを構築。  
+Go／PHP／React／Pythonなど複数言語を横断し、Web・ローカルアプリ・自動化など幅広く対応可能。  
+
+単なる開発にとどまらず、  
+「なぜこの技術を使うべきか」「どう組み合わせれば最も軽く動作するか」  
+といった**設計思想・技術検証の領域**を得意としています。  
+
+実用化と再現性を重視し、AIを駆使した開発環境・分類・最適化など、  
+痒いところに届く小規模技術の研究開発を継続しています。
 
 ---
 
-## 技術スキル（L1〜L5）
+## 💪 強み（Strengths）
 
-| 分野 | 技術 | レベル | 備考 |
-|------|------|---------|------|
-| 言語 | C / Basic / VBA / Python / Java / PHP / Go / GAS | L4 | 設計意図に応じた多言語連携が可能 |
-| フロント | HTML / CSS / JavaScript / React / WebGL | L4 | UI構築・3D表示・インタラクション設計に対応 |
-| バックエンド | PHP / Go / Python（Flask, FastAPI） / Node.js | L4 | API構築・データ処理・自動化スクリプト |
-| DB | SQLite / MySQL | L3 | 軽量・組込型DB中心に利用 |
-| CMS | WordPress（プラグイン開発） | L4 | React＋REST API連携プラグインの開発経験 |
-| AI関連 | ONNX / NLP / テキスト分類 / 意味抽出 | L5 | Go＋ONNXによる分類エンジン実装経験あり |
-| 環境構築 | Windows / Linux（実機構築） | L4 | Docker未使用、自前構築で汎用環境を再現 |
+- **環境最適設計力**  
+  - ハイスペック前提ではなく、N100等の低消費電力PCでも動作可能な設計を実現。  
+  - 仮想化・ローカル両対応が可能で、目的と環境に応じて最適化を判断できる。  
 
----
+- **統合的な構築能力**  
+  - バックエンド・フロントエンド・AI処理を単独で構成でき、  
+    異言語間の連携や設計統一が可能。  
 
-## 主な開発・研究プロジェクト
+- **設計思考と実装力の両立**  
+  - 「動くもの」を最優先しつつ、再現性・軽量化・運用性を意識した構築が得意。  
+  - クラウド依存を避けつつも、必要な部分では柔軟にサーバー利用を選択。  
 
-### 🧠 Categorizer-Go（Go＋ONNXによる文章分類エンジン）
-- **概要**：Go言語からONNXを直接呼び出し、入力文を意味分類する軽量エンジン。  
-  通常の「単語→文」検索ではなく、「文→単語」方向の分類を実現。
-- **GitHub**：[Categorizer-Go-](https://github.com/YashubuStudio/Categorizer-Go-)  
-- **技術**：Go, ONNXRuntime, Kagome  
-- **特徴**：  
-  - CPUのみで実行可能な高効率分類器  
-  - 軽量実行環境向けに最適化されたGo実装  
-  - LLM非依存の意味理解・分類ロジックを構築  
-- **成果**：LLMなしで自然文を分類する分別エンジンを完成。
+- **吸収と適応の速さ**  
+  - 必要な技術を短期間で習得し、プロトタイプを迅速に構築。  
+  - 研究開発や要件定義から実装までの一連の流れを自走可能。  
+
+- **AIおよびローカルLLMの運用知識**  
+  - OllamaやONNXなど、軽量AI環境を扱う経験を有し、  
+    実装・最適化・統合を小規模構成で実現可能。  
 
 ---
 
-### 📂 MultiIndex（ローカル全文検索エンジン）
-- **概要**：Go言語による軽量全文検索システム。  
-  指定ディレクトリを自動走査し、PDF・HTML・TXT等をインデックス化して検索可能。
-- **配信**：[Boothページ](https://hisuiyk.booth.pm/items/7214613)  
-- **技術**：Go（Bleve＋Kagome）, SQLite, CLI／Web対応  
-- **特徴**：  
-  - CPUオンリーで高速動作  
-  - フラグメント生成によるスニペット抽出  
-  - 再検索機構（Top-N制御）による効率設計  
-- **成果**：ローカル完結・軽量構成で動作する検索エンジンを実用化。
+## 💻 技術スキル一覧
+
+| 分類 | 技術・ツール | 備考 |
+|------|---------------|------|
+| 言語 | **Go**, Python, PHP, JavaScript, React, HTML/CSS, VBA, GAS, C, Basic | 各種フルスタック開発経験あり |
+| バックエンド | Go（Bleve検索, CLI構築）, PHP/Lumen, Python（AI連携, 自動化処理） | API設計・実装可能 |
+| フロントエンド | React, WebGL, Three.js, HTML5/CSS3 | UI/UX設計から実装まで一貫対応 |
+| データ処理 | SQLite, CSV, JSON, 一部MySQL | 軽量DB・ローカル運用重視 |
+| AI関連 | ONNX推論, モデル分類（Go呼び出し）, LLM統合（Ollama, GPT, Gemini） | モデル統合・実験レベルで活用 |
+| 開発環境 | Windowsメイン, Linux移行中, 仮想化対応可 | Docker限定ではなく実機構築派 |
+| その他 | Git, Node.js, Firebase通知 | クラウド・ローカル両対応設計 |
 
 ---
 
-### 🌐 Vconf_webgl-glTF（WebGLによる3Dモデルビューア）
-- **概要**：Three.jsをベースに、GLTFファイルをWeb上でプレビューする3Dビューア。  
-  複数視点からの表示や自動キャプチャ機能を実装。
-- **GitHub**：[Vconf_webgl-glTF](https://github.com/YashubuStudio/Vconf_webgl-glTF)  
-- **技術**：React, Three.js, WebGL  
-- **特徴**：  
-  - 発表資料提出用の3Dアップローダー・ビューア構成  
-  - マルチビュー表示・自動画像生成  
-  - 軽量なUI設計でローカル実行にも対応  
+## 🚀 代表プロジェクト
+
+### 🔹 [MultiIndex](https://hisuiyk.booth.pm/items/7214613)
+Go製の軽量全文検索エンジン。  
+特定ディレクトリを自動インデックス化し、ローカル環境で高速検索を実現。  
+クラウドを使わずCPUのみで動作可能。  
+簡易ハイブリッド検索（キーワード＋スコア）を搭載。
+
+### 🔹 [Categorizer-Go-](https://github.com/YashubuStudio/Categorizer-Go-)
+Go言語からONNXモデルを呼び出し、テキストを分類する軽量AI分類エンジン。  
+「文章 → カテゴリ」型の推論をシンプルな構造で実現。  
+内部構成がわかりやすく、AI統合の実装サンプルとしても利用可能。
+
+### 🔹 [Vconf_webgl-glTF](https://github.com/YashubuStudio/Vconf_webgl-glTF)
+WebGL＋Three.jsによるGLTF/ZIPファイルビューワー。  
+複数視点の自動キャプチャ・アップロード機能を実装。  
+Reactとの統合によりブラウザ上で軽快に動作。
+
+### 🔹 [vconf_editor](https://github.com/YashubuStudio/vconf_editor)
+WebUI上で設定ファイル（conf）を編集・保存できる軽量ツール。  
+Electronライクなローカルアプリ化にも対応可能。
+
+### 🔹 [wp-react-db-plugin](https://github.com/YashubuStudio/wp-react-db-plugin)
+WordPress × React構成のDB連携プラグイン。  
+管理画面から動的にReactコンポーネントを操作可能。  
+既存環境に負担をかけず、軽量なSPA拡張を実現。
 
 ---
 
-### 🧰 vconf_editor（React製Webエディタ）
-- **概要**：Web上で入力フォーム検証・表示結果を即座に確認できる2カラム構成のUI。  
-  発表者番号＋パスコード入力など、シンプルで実用的な構成。
-- **GitHub**：[vconf_editor](https://github.com/YashubuStudio/vconf_editor)  
-- **技術**：React, TailwindCSS  
-- **特徴**：  
-  - 入力エリアと結果表示を左右に分離した直感的UI  
-  - 検証・整形ツールのベースとして応用可能  
+## 🧠 開発スタイル・思想
+- **必要な技術を最短で吸収し、目的に沿って最適に使う**
+- **軽量・静的・シンプル設計**をモットーに、長期運用を見据えた構築を重視  
+- クラウド・ローカル双方の利点を理解し、**最小構成で最大の効果を得る**設計  
+- **1人完結型開発**が可能（UI設計・バックエンド・AI実験まで）  
+- 複数言語を組み合わせた**ハイブリッド開発構成**を得意とする  
 
 ---
 
-### 🔌 wp-react-db-plugin（WordPress＋Reactデータ管理プラグイン）
-- **概要**：WordPress上でReactフロントを動作させ、DB管理・入力UIを拡張。  
-  PHP＋REST APIを通じて双方向通信を実現。
-- **GitHub**：[wp-react-db-plugin](https://github.com/YashubuStudio/wp-react-db-plugin)  
-- **技術**：PHP, React, MySQL, REST API  
-- **特徴**：  
-  - WordPress内部で動作するSPA構成  
-  - データ入力・管理のUIをReactで再構築  
-  - 既存CMSの拡張に適した構成  
+## ⚙️ 開発環境
+- **OS**：Windows 11 / Ubuntu 24.04 LTS  
+- **仮想環境**：QEMU / VirtualBox / WSL2（N100クラス機材で軽量運用）  
+- **エディタ**：VS Code, GoLand, PyCharm  
+- **主要ツール**：Git / Node.js / Go CLI / Python / React / WebGL  
+- **AI実験環境**：Ollama / ONNX / local LLMサーバー  
 
 ---
 
-### 🌍 Amate（分散検索エンジン構想・開発継続中）
-- **概要**：MultiIndexをベースに、分散ノード型検索＋トークン経済圏を目指した研究構想  
-- **技術**：Go, Python, PHP(Lumen), Node.js, React  
-- **進捗**：分散同期モデルを再設計中  
-- **目的**：人・AI双方が利用できる非中央集権検索基盤の確立
+## 📄 稼働条件
+- **勤務形態**：フルリモートのみ  
+- **対応時間**：自由（納期優先型）  
+- **得意分野**：技術検証・試作設計・軽量アプリ化・AI実験環境構築  
+- **苦手分野**：チーム制の定期MTG・常駐業務  
 
 ---
 
-## 強み
-- **設計と実装の両立**：目的に応じて最小構成で動作するシステムを自作  
-- **言語横断力**：Go・React・PHPなどを自在に組み合わせた設計が可能  
-- **軽量志向**：LLM非搭載でも自然言語処理を行える独自エンジンを構築  
-- **実機構築能力**：仮想化せず、Linux実環境での動作検証に強い  
-
----
-
-## 課題・希望
-- チーム開発（CI/CD・コードレビュー）は未経験  
-- **完全リモート・非同期進行**のプロジェクトを希望  
-- 成果物ベースの受託・共同開発・研究案件を志向  
-
----
-
-## 対応可能領域
-- 軽量AI分類・検索エンジン開発（Go＋ONNX）  
-- 3Dモデル・WebGLビューア開発（React＋Three.js）  
-- WordPress拡張プラグイン開発（React＋PHP）  
-- 自動化ツール・ローカル完結型システムの設計
+## 🛰️ GitHub / 配信リンク
+- GitHub: [https://github.com/YashubuStudio](https://github.com/YashubuStudio)
+- Booth配信: [https://hisuiyk.booth.pm/items/7214613](https://hisuiyk.booth.pm/items/7214613)
