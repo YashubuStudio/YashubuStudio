@@ -45,7 +45,7 @@ Web開発、AI実験、ソフトウェア制作、電子回路設計まで、
 - 技術検証・試作の相談  
 - 研究開発・共同制作  
 - 軽量Web／AIシステムの委託開発  
-など、**「まず話してみたい」**段階でもOKです。
+など、**とりあえず話してみたい**段階でもOKです。
 
 📧 [YashubuStudio@gmail.com](mailto:YashubuStudio@gmail.com)  
 🐦 [@y_keito0120](https://twitter.com/y_keito0120)  
