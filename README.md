@@ -6,7 +6,7 @@
 
 ### 使える言語
 
-Java、C、Python、Basic、React、Node.js、JavaScript、PHP、HTML/CSS、バッチスクリプト(.bat)
+Java、C、Python、Basic、React、Node.js、JavaScript、PHP、HTML/CSS、バッチスクリプト(.bat)、Go言語
 
 ### その他スキル
 
