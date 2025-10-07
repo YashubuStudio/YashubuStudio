@@ -104,7 +104,7 @@ WordPress × React構成のDB連携プラグイン。
 ## ⚙️ 開発環境
 - **OS**：Windows 11 / Ubuntu 24.04 LTS  
 - **仮想環境**：QEMU / VirtualBox / WSL2（N100クラス機材で軽量運用）  
-- **エディタ**：VS Code, GoLand, PyCharm  
+- **エディタ**：VS Code, nano  
 - **主要ツール**：Git / Node.js / Go CLI / Python / React / WebGL  
 - **AI実験環境**：Ollama / ONNX / local LLMサーバー  
 
