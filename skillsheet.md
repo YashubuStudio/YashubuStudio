@@ -115,6 +115,29 @@ WordPress × React構成のDB連携プラグイン。
 
 ---
 
+## 💼 受託・公開実績
+
+### 🏢 クライアント案件（受注開発）
+- [mfc.ne.jp](https://mfc.ne.jp)  
+  企業向けWebサイトの構築・運用を担当。  
+  軽量かつ高速な表示を重視し、静的生成と最適化を併用した実装を採用。  
+  サーバー環境の整備からデザイン・実装まで一貫して対応。  
+
+---
+
+### 📁 ポートフォリオ・実績記録
+- [YashubuStudio Portfolio / record.html](https://portfolio.yashubustudioetc.com/record/record.html)  
+  受注・開発案件の一覧を掲載。  
+  個人・法人問わず、要件定義から設計・納品までを担当。  
+  カスタムWebシステムやAI補助ツールなど、多様な分野に対応。
+
+
 ## 🛰️ GitHub / 配信リンク
 - GitHub: [https://github.com/YashubuStudio](https://github.com/YashubuStudio)
 - Booth配信: [https://hisuiyk.booth.pm/items/7214613](https://hisuiyk.booth.pm/items/7214613)
+
+
+### 🔒 その他非公開案件
+- 小規模業務システム開発（要件定義～納品まで一貫対応）  
+- カスタムAI補助ツールの試作開発  
+- React＋Go構成による社内向けデータ管理Webアプリ など
